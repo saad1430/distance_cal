@@ -11,6 +11,9 @@
    if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $from = htmlspecialchars($_POST['from']);
     $to = htmlspecialchars($_POST['to']);
+   }else {
+    $from = '';
+    $to = '';
    }
   ?>
   <style>
